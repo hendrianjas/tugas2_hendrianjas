@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +7,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+     <style>
+        /* 🔹 Ubah warna nav tab jadi abu gelap */
+        .nav-tabs .nav-link {
+            background-color: #495057;  /* abu-abu gelap */
+            color: white;
+            border: 1px solid #dee2e6;
+            margin-right: 2px;
+        }
+        .nav-tabs .nav-link.active {
+            background-color: #93a9c0ff;  /* abu-abu lebih gelap untuk tab aktif */
+            color: #fff;
+        }
+    </style>
 <script>
 // jQuery solution
 $(document).ready(function() {
@@ -27,6 +39,9 @@ $(document).ready(function() {
 </head>
 
 <body>
+<body style="background-color: #e0e0e0;">
+
+
 <div class="container mt-5">
     <h2>Manajemen Data Akademik</h2>
     <hr>
