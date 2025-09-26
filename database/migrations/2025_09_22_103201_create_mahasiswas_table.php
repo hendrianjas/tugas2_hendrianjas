@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('nim')->unique();
             $table->enum('jenis_kelamin', ['Laki-laki', 'Perempuan']);
             $table->string('prodi');
-            $table->year('tahun_anggaran');
+            $table->year('tahun_angkatan');
             $table->date('tanggal_lahir');
             $table->timestamps();
         });
